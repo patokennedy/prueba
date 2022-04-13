@@ -34,7 +34,7 @@ img{
 
 /*menu*/
 header{
-    background:#333;
+    background:rgb(255, 102, 0);
     color:#f2f2f2;
     padding: 1rem 0;
     position: fixed;
@@ -189,7 +189,7 @@ main{
     display:flex;
     padding: 0;
     width: 300%;
-    animation: cambio 20s infinite;
+    animation: cambio 10s infinite;
     animation-direction: alternate;
     animation-timing-function:linear;
 }

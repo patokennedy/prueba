@@ -41,7 +41,7 @@ header{
     left: 0;
     top:0;
     right: 0;
-    height: 65px;
+    height: 100px;
 }
 header a{
     color: #cccccc;
@@ -220,7 +220,7 @@ main{
     padding: 20px;
 }
 .container-imagen{
-    width: 33%;
+    width: 30%;
     display:inline-block; 
     align-items: center;
     flex-direction: column;
@@ -233,7 +233,7 @@ main{
 .circulo{    
     width: 60%;
     border-radius: 50%;
-    border:2px solid  #DF691A;
+    border:3px solid  hwb(32 7% 17%);
     box-shadow: 0 2px 2px rgba(0,0,0,0.2);
 }
 .ver-todo{
@@ -547,7 +547,7 @@ main{
 }
 
 *, ::after, ::before {
-    box-sizing: border-box;
+    box-sizing: content-box;
 }
 .container-footer {
     width: 100%;

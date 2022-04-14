@@ -179,13 +179,16 @@ main{
 }
 
 /*slider*/
-.slider{
-    padding-top: 4rem;
+
+.carrusel{
+    padding-top: 6rem;
     width: 100%;
     margin: auto;
     overflow: hidden;
+    
+
 }
-.slider ul{
+.carrusel ul{
     display:flex;
     padding: 0;
     width: 300%;
@@ -193,11 +196,11 @@ main{
     animation-direction: alternate;
     animation-timing-function:linear;
 }
-.slider li{
+.carrusel li{
     list-style: none;
     width: 100%;
 }
-.slider img{
+.carrusel img{
     width: 100%;
 }
 

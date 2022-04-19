@@ -74,11 +74,18 @@ header a{
 .navigation ul li{
     display: inline-block;
 }
+.navigation ul li ul{
+    display: none;
+}
+.navigation ul li:hover > ul{
+    display: block;
+}
 .navigation ul li a{
     display: block;
     padding: 0 1rem;
     font-weight: 700;
 }
+
 .navigation ul li a:hover{
     color: #f2f2f2;
 }
@@ -113,6 +120,26 @@ header a{
 .car{
     position: relative;
 }
+.a_desplegable{
+    text-decoration: none;
+    font-size: 16px;
+    color: #ddd;
+    padding: 50px 20px;
+    display: block;
+}
+
+.a_desplegable:hover{
+    background-color:  gray;
+}
+.desplegable{
+    display: flex;
+    flex-direction: column;
+}
+.desplegable{
+    position: absolute;
+    background-color: #ed7c0a;
+}
+
 
 /*menu-carrito*/
 .dropdown-menu{
@@ -731,3 +758,68 @@ body {
     color: #fff;
   }
   
+
+  /* Historial de compras */
+
+  body{
+    margin: 0;
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+{
+    box-sizing: border-box;
+}
+
+.table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table td,.table th{
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+
+}
+
+.table th{
+    background-color: darkblue;
+    color:#ffffff ;
+
+}
+
+.table tbody tr :nth-child(even){
+    background-color: #f5f5f5;
+
+}
+
+@media( max-width: 500px){
+    .table thead{
+        display: none;
+    }
+    .table, .table tbody, .table tr, .table td{
+        display: block;
+        width: 100%;
+    }
+    .table tr{
+        margin-bottom: 15px;
+    }
+    .table td{
+        text-align: right;
+        padding-left: 50%;
+        text-align: right;
+        position: relative;
+    }
+    .table td::before{
+        content: attr(data-label);
+        position: absolute;
+        left: 0;
+        width: 50%;
+        padding-left: 15px;
+        font-size: 15px;
+        font-weight: bold;
+        text-align: left;
+    }
+
+}

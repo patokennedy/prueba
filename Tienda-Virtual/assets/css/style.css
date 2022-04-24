@@ -437,7 +437,14 @@ main{
 .columna2 img{
     width: 450px;
 }
-
+.columna3 img{
+    width: 1100px;
+    position: center;
+  border: 20px solid rgb(255, 102, 0);
+  border-image-width: 1;
+  border-image-slice: 23%;
+  border-image-repeat: round;
+}
 /*carrito*/
 #cargando{
     display: none;
@@ -759,6 +766,105 @@ body {
   .login-box a:hover {
     color: #fff;
   }
+
+
+/* Aqui comienza CSS del formulario de registro */
+
+/*--ACOMODANDO-MARGENES-PADDING--*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open sans';
+}
+
+/*--IMAGEN-DE-FONDO--------------*/
+body{
+    background-image: url(img/header1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 15px;
+}
+
+/*--FORMULARIO-------------------*/
+.form{
+    width: 450px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    background: rgba(15, 50, 72, 0.3);
+    border-radius: 5px;
+}
+
+/*--TITULO-----------------------*/
+.titulo{
+    color: #1d4169;
+    margin-bottom: 20px;
+}
+
+/*--CAJAS-DE-DATOS---------------*/
+.cajas{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 2px;
+    border: none;
+    border-left: 10px solid #d9e4ea;
+    transition: all .5s ease;
+}
+
+.cajas:hover, .cajas:focus{
+    border-left: 10px solid #1a4c7e;
+}
+
+/*--TERMINOS-Y-CONDICIONES-------*/
+.termino1{
+    text-align: center;
+    color: #3b3b3b;
+}
+
+.termino2{
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.termino2:hover{
+    color: #dbdbdb;
+}
+
+/*--BOTON-DE-REGISTRARSE---------*/
+.btn{
+    width: 100%;
+    padding: 15px;
+    border-radius: 2px;
+    border: none;
+    margin: 20px 0;
+    font-size: 15px;
+    background: #ff5e14;
+    color: white;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+.btn:hover{
+    background: #4c1f0b;
+}
+
+/*--YA-TENGO-CUENTA--------------*/
+.tengo-cuenta{
+    text-align: center;
+    color: #000000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.tengo-cuenta:hover{
+    color: #dbdbdb;
+}
+  
   
 
   /* Historial de compras */
@@ -769,9 +875,7 @@ body {
     font-family: sans-serif;
 }
 
-{
-    box-sizing: border-box;
-}
+
 
 .table{
     width: 100%;
@@ -855,6 +959,7 @@ body {
         .Container-principal{
 			padding: 32px 20px 20px 20px;
 		}
+<<<<<<< HEAD
 
 /*Admin*/
 
@@ -899,3 +1004,6 @@ th,td{
 .button-group{
     color: #9a4912;
 }
+=======
+>>>>>>> d8c459113ba63d32ed40fe6fa8f0337848ad5842
+>>>>>>> 3f0e0a079259d3268589fd33c9eec695f18c4448

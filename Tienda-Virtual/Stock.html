@@ -35,98 +35,130 @@
 
 
 <main>
+  <div class="Contenido">
+                
+    <h2 class="Titulo-pagina">Administar Stock</h2>
 
-        <div class="modal" id="modal">
-          <div class="modal-content">
-            <img src="" alt="" class="modal-img" id="modal-img">
-          </div>
-          <div class="modal-boton" id="modal-boton">X</div>
-        </div>
+    <table>
+        <thead>
+            <th>Codigo</th>
+            <th>Nombre producto</th>
+            <th>Precio</th>
+            <th>Disponibles</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>ROP0000074</td>
+                <td>Ropa Hello Kitty</td>
+                <td>$5000</td>
+                <td>19</td>
+                <td><a href="#" class="edit">Editar</a></td>
+                <td><a href="#" class="edit">Agregar</a></td>
+                <td><a href="#" class="delete">Borrar</a></td>
+                <td><a href="#" class="publish">Guardar</a></td>
 
-        <div class="container-productos" id="lista-productos">
+            </tr>
+            <td>JUG0000005</td>
+            <td>Pelota Soga Nudo Grande Colores</td>
+            <td>$2400</td>
+            <td>15</td>
+            <td><a href="#" class="edit">Editar</a></td>
+            <td><a href="#" class="edit">Agregar</a></td>
+            <td><a href="#" class="delete">Borrar</a></td>
+            <td><a href="#" class="publish">Guardar</a></td>
+            <tr>
 
-          <div class="card">
-            <img src="assets/img/ropa1.jpeg" class="card-img">
-            <h3>!Descuento del 15%!</h3>
-            <h5>Ropa Hello Kitty</h5>
-            <p>SKU: ROP0000074</p>
-            <p>$<small class="precio">5000</small></p>
-            <a href="#" class="button agregar-carrito" data-id="1">Administrar Stock</a>          
-          </div>
-          <div class="card">
-            <img src="assets/img/juguete1.png" class="card-img">
-            <h5>Pelota Soga Nudo Grande Colores</h5>
-            <p>SKU: JUG0000005</p>
+            </tr>
+          </tr>
+          <td>BPY4UND</td>
+          <td>Pack Yogy Helado para perros 100% Natural 100g de Barker</td>
+          <td>$2400</td>
+          <td>0</td>
+          <td><a href="#" class="edit">Editar</a></td>
+          <td><a href="#" class="edit">Agregar</a></td>
+          <td><a href="#" class="delete">Borrar</a></td>
+          <td><a href="#" class="publish">Guardar</a></td>
+          <tr>
+            
+          </tr>
+          <td>DDMB7U70GR</td>
+          <td>Dingo Dental Mini Bones 7und x70gr</td>
+          <td>$2600</td>
+          <td>15</td>
+          <td><a href="#" class="edit">Editar</a></td>
+          <td><a href="#" class="edit">Agregar</a></td>
+          <td><a href="#" class="delete">Borrar</a></td>
+          <td><a href="#" class="publish">Guardar</a></td>
+          <tr>
 
-            <p>$<small class="precio">5000</small></p>
+          </tr>
+          <td>HDB04</td>
+          <td>Hartz - Duraplay Ball Medium</td>
+          <td>$3500</td>
+          <td>10</td>
+          <td><a href="#" class="edit">Editar</a></td>
+          <td><a href="#" class="edit">Agregar</a></td>
+          <td><a href="#" class="delete">Borrar</a></td>
+          <td><a href="#" class="publish">Guardar</a></td>
+          <tr>
 
+          </tr>
+          <td>ROP0000023</td>
+          <td>Ropa Avengers</td>
+          <td>$10000</td>
+          <td>10</td>
+          <td><a href="#" class="edit">Editar</a></td>
+          <td><a href="#" class="edit">Agregar</a></td>
+          <td><a href="#" class="delete">Borrar</a></td>
+          <td><a href="#" class="publish">Guardar</a></td>
+          <tr>
 
+          </tr>
 
-            <a href="#" class="button agregar-carrito" data-id="2">Administrar Stock</a>
-          </div>
-          <div class="card">
-            <img src="assets/img/alimento1.webp" class="card-img">
-            <h3>!Descuento del 10%!</h3>
-            <h5>Pack Yogy Helado para perros 100% Natural 100g de Barker</h5>
-            <p>SKU: BPY4UND</p>
-            <p>$<small class="precio">2400-10% </small></p>
+        </tr>
+        <td>AP-D794-011</td>
+        <td>Animal Planet Juguete P/Mascota Medium        </td>
+        <td>$3500</td>
+        <td>100</td>
+        <td><a href="#" class="edit">Editar</a></td>
+        <td><a href="#" class="edit">Agregar</a></td>
+        <td><a href="#" class="delete">Borrar</a></td>
+        <td><a href="#" class="publish">Guardar</a></td>
+        <tr>
 
-            <a href="#" class="button agregar-carrito" data-id="3">Administrar Stock</a>
-          </div>
+        </tr>
 
-          <div class="card">
-            <img src="assets/img/alimento2.webp" class="card-img">
-            <h5>Dingo Dental Mini Bones 7und x70gr</h5>
-            <p>SKU: DDMB7U70GR</p>
-            <p>$<small class="precio">2600</small></p>
-            <a href="#" class="button agregar-carrito" data-id="4">Administrar Stock</a>
-          </div>
-          <div class="card">
-            <img src="assets/img/juguete3.webp" class="card-img">
-            <h5>Hartz - Duraplay Ball Medium</h5>
-            <p>SKU: HDB04</p>
-            <p>$<small class="precio">3500</small></p>
-            <a href="#" class="button agregar-carrito" data-id="5">Administrar Stock</a>
-          </div>
-          <div class="card">
-            <img src="assets/img/ropa2.jpeg" class="card-img">
-            <h5>Ropa Avengers</h5>
-            <p>SKU: ROP0000023</p>
-            <p>$<small class="precio">10000</small></p>
+      </tr>
+      <td>HPDMT</td>
+      <td>Hills PD Metabolic Treats </td>
+      <td>$10000</td>
+      <td>100</td>
+      <td><a href="#" class="edit">Editar</a></td>
+      <td><a href="#" class="edit">Agregar</a></td>
+      <td><a href="#" class="delete">Borrar</a></td>
+      <td><a href="#" class="publish">Guardar</a></td>
+      <tr>
 
-            <a href="#" class="button agregar-carrito" data-id="6">Administrar Stock</a>
-          </div>
+      </tr>
 
-          <div class="card">
-            <img src="assets/img/juguete2.webp" class="card-img">
-            <h5>Animal Planet Juguete P/Mascota Medium</h5>
-            <p>SKU: AP-D794-011</p>
+    </tr>
+    <td>HTD-TSH023-1</td>
+    <td>Hoodie Hotdogz Mr. Charlie </td>
+    <td>$7000</td>
+    <td>0</td>
+    <td><a href="#" class="edit">Editar</a></td>
+    <td><a href="#" class="edit">Agregar</a></td>
+    <td><a href="#" class="delete">Borrar</a></td>
+    <td><a href="#" class="publish">Guardar</a></td>
+    <tr>
 
-            <p>$<small class="precio">3500</small></p>
+    </tr>
+            
 
-            <a href="#" class="button agregar-carrito" data-id="7">Administrar Stock</a>
-          </div>
-          <div class="card">
-            <img src="assets/img/ropa3.webp" class="card-img">
-            <h5>Hoodie Hotdogz Mr. Charlie</h5>
-            <p>SKU: HTD-TSH023-1</p>
-
-            <p>$<small class="precio">10000</small></p>
-
-            <a href="#" class="button agregar-carrito" data-id="8">Administrar Stock</a>
-          </div>
-          <div class="card">
-            <img src="assets/img/alimento3.webp" class="card-img">
-            <h5>Hills PD Metabolic Treats</h5>
-            <p>SKU: HPDMT</p>
-
-            <p>$<small class="precio">7000</small></p>
-
-
-            <a href="#" class="button agregar-carrito" data-id="9">Administrar Stock</a>
-          </div>
-
-        </div>
+          </tr>
+        </tbody>
+    </table>
+</div>
 </main>
   
 

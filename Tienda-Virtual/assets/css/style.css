@@ -269,7 +269,7 @@ main{
 .ver-todo{
     margin: 50px 0;
     width: 25%;
-    text-align: left;
+    text-align: center;
 }
 .contenedor-columna{
     width: 100%;
@@ -959,7 +959,6 @@ body{
         .Container-principal{
 			padding: 32px 20px 20px 20px;
 		}
-<<<<<<< HEAD
 
 /*Admin*/
 
@@ -1004,6 +1003,3 @@ th,td{
 .button-group{
     color: #9a4912;
 }
-=======
->>>>>>> d8c459113ba63d32ed40fe6fa8f0337848ad5842
->>>>>>> 3f0e0a079259d3268589fd33c9eec695f18c4448

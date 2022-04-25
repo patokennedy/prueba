@@ -6,7 +6,9 @@
     letter-spacing: 0.03em;
     line-height: 1.3;
 }
-
+.admin_ventas{
+    text-align: center;
+}
 p{
     padding: 5px;
 }

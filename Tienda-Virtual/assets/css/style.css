@@ -1,3 +1,32 @@
+.left_label {
+    width: 150px;
+    display: inline-block;
+    vertical-align: top
+}
+
+.tipo_usuario {
+    margin-right: 10px;
+}
+
+#rut {
+    width: 120px;
+}
+#id {
+    width: 80px;
+}
+
+#nombres, #apellidos, #correo {
+    width: 310px;
+
+}
+#direccion {
+    width: 400px;
+}
+
+#edad {
+    width: 60px;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -269,9 +298,9 @@ main{
     box-shadow: 0 2px 2px rgba(0,0,0,0.2);
 }
 .ver-todo{
-    margin: 50px 0;
-    width: 25%;
+    width: 100%;
     text-align: center;
+    margin: 50px;
 
 }
 .contenedor-columna{
@@ -422,11 +451,15 @@ main{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 5% auto;
+    margin: 8% auto;
 }
 
 
 /*columnas*/
+.Contenido{
+    margin-bottom: 50px;
+    
+}
 .columna1{
     width: 50%;
     /* float: left;
@@ -550,6 +583,9 @@ main{
   font-size: 14px;
   color: #878787;
   text-decoration: none;
+}
+.row{
+    margin: 15px;
 }
 .row-footer {
     display: -ms-flexbox;
@@ -803,6 +839,11 @@ body{
     margin-bottom: 20px;
 }
 
+.Titulo-pagina{
+    margin: 15px;
+    padding: 50px;
+}
+
 /*--CAJAS-DE-DATOS---------------*/
 .cajas{
     width: 100%;
@@ -964,7 +1005,6 @@ body{
 .admin-contenido{
     flex: 8;
     height: 100%;
-    padding: 40px 100px 100px;
     overflow-y: scroll;
     
 }
@@ -1001,4 +1041,14 @@ th,td{
 }
 .button-group{
     color: #9a4912;
+}
+
+/*Mantenedor de sotck*/
+
+.edit-stock{
+    max-width: max-content;
+    width: 1250px;
+    padding: 25px;
+    margin: 50px;
+
 }

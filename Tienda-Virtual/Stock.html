@@ -35,12 +35,41 @@
 
 
 <main>
-  <div class="Contenido">
-                
-    <h2 class="Titulo-pagina">Administar Stock</h2>
 
-    <div class="ver-todo"><a class="button">Agregar</a></div>
 
+  
+<div class="Contenido">
+                 
+    <h1 class="Titulo-pagina">Administar Stock</h2>
+      <div class="edit-stock">
+        <form action="registro.php" method="post" nombre="registro">
+          <label class="left_label" for="id">ID</label>
+          <input type="text" name="id" id="id">
+          <br>
+          <label class="left_label" for="pais">País de nacimiento</label>
+                <select name="pais" id="pais">
+                  <option value="1">perros</option>
+                  <option value="2">Gatos</option>
+                </select>
+          <br>
+          <label class="left_label" for="rut">Nombre</label>
+          <input type="text" name="rut" id="rut">
+          <br>
+          <label class="left_label" for="nombres">Descripción</label>
+          <input type="text" name="nombres" id="nombres" placeholder="Escribe aquí tus nombres">
+          <br>
+          <label class="left_label" for="apellidos">Descuento subscriptor</label>
+          <input type="text" name="apellidos" id="apellidos" placeholder="Escribe aquí tus apellidos">
+          <br>
+          <label class="left_label" for="correo">Descuento por oferta</label>
+          <input type="email" name="correo" id="correo" placeholder="Escribe aquí tu correo">
+          <br>
+      </div>
+  <div class="ver-todo"><a class="button">Guardar</a><a class="button">Nuevo</a><a class="button">Eliminar</a></div>
+  <div>
+
+
+  
     <table>
         <thead>
             <th>ID</th>
@@ -217,7 +246,9 @@
                 </tr>
         </tbody>
     </table>
-</div>
+  </div>
+
+
 </main>
   
 

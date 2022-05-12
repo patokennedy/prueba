@@ -37,6 +37,8 @@
 }
 .admin_ventas{
     text-align: center;
+    margin: 15px;
+    padding: 35PX;
 }
 p{
     padding: 5px;
@@ -840,8 +842,8 @@ body{
 }
 
 .Titulo-pagina{
-    margin: 15px;
-    padding: 50px;
+    margin: 5px;
+    padding: 30px;
 }
 
 /*--CAJAS-DE-DATOS---------------*/
@@ -1049,6 +1051,6 @@ th,td{
     max-width: max-content;
     width: 1250px;
     padding: 25px;
-    margin: 50px;
+    margin: 25px;
 
 }

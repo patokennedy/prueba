@@ -1060,3 +1060,20 @@ th,td{
     text-align: left;
     
 }
+
+
+.fotoprod{
+    width: 200px;
+    float: right;
+    position: relative;
+    top: -250px;
+    right: 220px;
+    
+}
+
+.fotop{
+    width: 200px;
+    float: right;
+    position: relative;
+    top: -60px; 
+}

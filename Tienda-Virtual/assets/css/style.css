@@ -1049,6 +1049,7 @@ th,td{
     
 }
 
+<<<<<<< HEAD
 /*Formulario de registro*/
 
 .left_label {
@@ -1088,3 +1089,21 @@ th,td{
     border: 0px solid blue;
 }
 
+=======
+
+.fotoprod{
+    width: 200px;
+    float: right;
+    position: relative;
+    top: -250px;
+    right: 220px;
+    
+}
+
+.fotop{
+    width: 200px;
+    float: right;
+    position: relative;
+    top: -60px; 
+}
+>>>>>>> 4e9e27f063fb482db8023a32957313e9137ba08b

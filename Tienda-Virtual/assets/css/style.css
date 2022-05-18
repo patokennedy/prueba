@@ -455,6 +455,15 @@ main{
     justify-content: center;
     margin: 8% auto;
 }
+.container-historial{
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2% auto;
+}
 
 
 /*columnas*/
@@ -467,6 +476,10 @@ main{
     /* float: left;
     padding-left: 25px; */
     text-align: center;
+}
+.columna1-historial{
+    width: 200%;
+    
 }
 .columna2 img{
     width: 450px;
@@ -877,32 +890,7 @@ body{
     color: #dbdbdb;
 }
 
-/*--BOTON-DE-REGISTRARSE---------*/
-.btn{
-    width: 100%;
-    padding: 15px;
-    border-radius: 2px;
-    border: none;
-    margin: 20px 0;
-    font-size: 15px;
-    background: #ff5e14;
-    color: white;
-    cursor: pointer;
-    transition: all .5s ease;
-}
-
-.btn:hover{
-    background: #4c1f0b;
-}
-
 /*--YA-TENGO-CUENTA--------------*/
-.tengo-cuenta{
-    text-align: center;
-    color: #000000;
-    font-weight: bold;
-    text-decoration: none;
-}
-
 .tengo-cuenta:hover{
     color: #dbdbdb;
 }
@@ -1060,3 +1048,43 @@ th,td{
     text-align: left;
     
 }
+
+/*Formulario de registro*/
+
+.left_label {
+    width: 150px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.radio_sexo {
+    margin-right: 10px;
+}
+
+#rut {
+    width: 180px;
+}
+
+#nombres, #apellidos, #correo {
+    width: 310px;
+}
+
+#edad {
+    width: 60px;
+}
+
+.borde-bootstrap-row {
+    border: 0px solid blue;
+    margin: 5px
+}
+
+.error {
+    color: red;
+}
+
+.centrar {
+    text-align: center;
+    margin: 10px;
+    border: 0px solid blue;
+}
+

@@ -1107,3 +1107,26 @@ th,td{
     top: -60px; 
 }
 >>>>>>> 4e9e27f063fb482db8023a32957313e9137ba08b
+
+.fotop{
+    width: 200px;
+    float: right;
+}
+
+.bodega-foto-prod {
+    padding-left: 10px;
+}
+
+.foto-prod{
+    margin: 0;
+    width: 200px;
+    right: 220px;
+}
+
+/* div {
+    border: 1px solid blue;
+}
+
+img {
+    border: 1px solid black !important;
+} */
